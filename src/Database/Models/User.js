@@ -65,28 +65,28 @@ const schema = new Schema({
 
     mal_id: {
         type: Number,
-        required: true
+        required: false
       },
       url: {
         type: String,
-        required: true
+        required: false
       },
       name: {
         type: String,
-        required: true
+        required: false
       },
       nicknames: {
         type: [String],
-        required: true,
+        required: false,
         default: []
       },
       about: {
         type: String,
-        required: true
+        required: false
       },
       favorites: {
         type: Number,
-        required: true
+        required: false
       }
 })
 
